@@ -5,8 +5,9 @@ public class Computer {
 
     public Computer(int computerStorage, String printerModel) {
         this.storage = computerStorage;
-        this.printerModel = printerModel;
+        this.printer = printerModel;
     }
 
+    public int getStorage() {return storage; }
 
 }
