@@ -8,6 +8,7 @@ public class Computer {
         this.printer = printerModel;
     }
 
+//    getter to show how much storage
     public int getStorage() {return storage; }
 
 }
